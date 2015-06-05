@@ -6,6 +6,15 @@
     	<link href="css/style.css" rel="stylesheet">
   	</head>
  	<body>
-    	<!-- Основная разметка -->
+    	<header class="main-header">
+    		
+    	</header>
+    	<div class="main-block">
+    		
+    	</div>
+    	<footer class="main-footer">
+    		
+    	</footer>
+
 	</body>
 </html>
