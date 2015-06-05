@@ -36,11 +36,90 @@
     		</div>
     	</header>
     	<div class="main-block">
-    		
+    		<div class="conteiner clearfix">
+				<div class="content-title">
+					<h1>Набор для путешествий «Baxter of California»</h1>
+						<nav class="breadcrubs">
+							<ul>
+								<li>
+									<a href="#">Главная</a>
+								</li>
+								<li>
+									<a href="#">Магазин</a>
+								</li>
+								<li>
+									<a href="#">Средства для ухода</a>
+								</li>
+								<li class="active">
+									<a href="#">Набор для путешествий «Baxter of California»</a>
+								</li>
+							</ul>
+						</nav>
+				</div>
+				<div class="pictures">
+					<div class="picture-big">
+						<img src="http://placehold.it/460x500" width="460" height="500">					
+					</div>	
+					<div class="picture-small-left">
+						<img src="http://placehold.it/140x150" width="140" height="150">					
+					</div>	
+					<div class="picture-small-center">
+						<img src="http://placehold.it/140x150" width="140" height="150">					
+					</div>	
+					<div class="picture-small-right">
+						<img src="http://placehold.it/140x150" width="140" height="150">					
+					</div>	
+				</div>
+				<div class="content-column-right">
+					<div class="product-info">
+						<div class="availability">
+							<p>Есть в наличии</p>
+						</div>
+						<div class="article">
+							<p>Актикул: dexter-ae</p>
+						</div>
+						<p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+					</div>
+					<div class="price-buy">
+						<div class="price">
+							<p>2900 руб.</p>
+						</div>
+						<div class="buy-button">
+							<a href="#" class="buy">Купить</a>
+						</div>
+					</div>
+					<div class="product-list">
+						<ul>
+							<li>Средство для умывания (50 мл)</li>
+							<li>Увлажняющий крем (50 мл)</li>	
+							<li>Крем для бритья (50 мл)</li>
+							<li>Крем после бритья, шампунь (50 мл)</li>
+							<li>Удобная кожаная косметичка</li>
+						</ul>
+						
+					</div>
+				</div>
+    		</div>
     	</div>
     	<footer class="main-footer">
-    		
+    		<div class="container clearfix">
+    			<div class="footer-contacts">
+    				Барбершоп «Бородинский»<br>
+    				Адрес: г. Санкт-Петербург, ул.Б.Конюшенная, д. 19/8<br>
+    				<a href="#">Как нас найти?</a><br>
+    				Телефон: +7 (495) 666-02-66
+    			</div>
+    			<div class="footer-social">
+    				<p>Давайте дружить!</p>
+    				<a href="#" class="social-btn social-btn-vk">VK</a>
+    				<a href="#" class="social-btn social-btn-fb">FB</a>
+    				<a href="#" class="social-btn social-btn-inst">INST</a>
+    			</div>
+    			<div class="footer-copyright">
+    				<p>Разработано:</p>
+    				<a href="#" class="copyright">HTMLACADEMY.RU</a>
+    			</div>
+    		</div>    			
     	</footer>
-
 	</body>
 </html>
