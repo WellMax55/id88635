@@ -6,161 +6,149 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
+
         <!-- header -->
         <header class="main-header">
 
-            <!-- темно-синий блок headera-->
-            <div class="header-1">
-                <div class="header-conteiner clearfix">
-                    <!-- column-left -->
-                    <div class="header-column-1">
-                        <div class="header-company-name">
-                            <a href="#" class="company">Техномарт</a>
-                        </div>
-                        <div class="search-btn">
-                            <a href="#" class="search">Поиск</a>
-                        </div>
-                    </div>
-                    
-                    <!-- column-right -->
-                    <div class="header-column-2">
-                        <div class="user-btn">
-                            <a href="#" class="bookmark">Закладки:</a>
-                        </div>
-                        <div class="user-btn">
-                            <a href="#" class="recycle">Корзина:</a>
-                        </div>
-                        <div class="checkout-btn">
-                            <a href="#" class="checkout">Оформить заказ</a>
-                        </div>
-                    </div>
+            <!-- header-top-->
+            <div class="header-top">
+                <div class="container clearfix">
+                    <div class="logo">Техномарт</div>
+                    <form class="search-btn">
+                        <label for="search">Поиск</label>
+                        <input type="text" id="search">                        
+                    </form>
+                    <a href="#" class="header-btn bookmark">Закладки:</a>
+                    <a href="#" class="header-btn recycle">Корзина:</a>
+                    <a href="#" class="header-btn checkout">Оформить заказ</a>
                 </div>
             </div>
 
-            <!-- светло-голубой блок headera -->
-            <div class="header-2"> 
-                <div class="header-conteiner clearfix">
-                    <div class="info-container">
-                        <p>Интернет-магазин строительных материалов и инстументов для ремонта</p>
+            <!-- header-bottom -->
+            <div class="header-bottom">
+                <div class="container">
+
+                    <!-- info-container -->
+                    <div class="info-container" clearfix>
+                        <h1 class="shop-block">Интернет-магазин строительных материалов и инстументов для ремонта</h1>
+                        <div class="contact-block">
+                            <div class="tel">+7 (812) 555-05-55</div>
+                            <div class="address">г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</div>
+                        </div>
+                        <div class="user-block">
+                            <a href="#" class="btn login">Войти</a>
+                            <a href="#" class="btn registration">Регистрация</a>
+                        </div>           
                     </div>
-                    <div class="contacts-container">
-                        <div class="tel">+7 (812) 555-05-55</div>
-                        <div class="address">г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</div>
-                    </div>
-                    <div class="user-container-1">
-                        <a href="#" class="login">Войти</a>
-                    </div>
-                    <div class="user-container-2">
-                        <a href="#" class="registration">Регистрация</a>
-                    </div>           
-                </div>
     
-                <!-- навигация -->
-                <nav class="main-navigation">
-                    <ul>
-                        <li>
-                            <a href="#">Главная</a>
-                        </li>
-                        <li>
-                            <a href="#">Компания</a>
-                        </li>
-                        <li>
-                            <a href="#">Каталог</a>
-                        </li>
-                        <li>
-                            <a href="#">Новости</a>
-                        </li>
-                        <li>
-                            <a href="#">Спецпредложения</a>
-                        </li>
-                        <li>
-                            <a href="#">Доставка</a>
-                        </li>
-                        <li>
-                            <a href="#">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>    
-        </header>    
-        
-        <!-- main-block -->
-        <div class="main-block">
-
-            <!-- Виды товаров и услуг -->
-            <div class="types-product clearfix">
-
-                <!-- Материалы -->
-                <article class="types-product-item">
-                    <!-- картинку добавить фоном -->
-                    <h2 class="types-product-title">Материалы</h2>
-                    <div class="types-product-btn">
-                        <a href="#" class="types-product-button">на любой вкус</a>
-                    </div>
-                </article>
-
-                <!-- Инструмент -->
-                <article class="types-product-item">
-                    <!-- картинку добавить фоном -->
-                    <h2 class="types-product-title">Инструмент</h2>
-                    <div class="types-product-btn">
-                        <a href="#" class="types-product-button">на все случаи</a>
-                    </div>
-                </article>
-                
-                <!-- Техника -->
-                <article class="types-product-item">
-                    <!-- картинку добавить фоном -->
-                    <h2 class="types-product-title">Техника</h2>
-                    <div class="types-product-btn">
-                        <a href="#" class="types-product-button">для стройки</a>
-                    </div>
-                </article>
-
-                <!-- Слайдер -->
-                <article class="slider">
-                    <!-- картинку добавить фоном -->
-                    <h1 class="slider-title">Дрели</h1>
-                    <div class="slider-title_add">Соседям на радость!</div>
-                    <!-- pagination -->
-                        <ul class="pagination">
+                    <!-- навигация -->
+                    <nav class="main-navigation">
+                        <ul>
                             <li>
-                                <a href="#">Стрелка влево (символом)</a>
+                                <a href="#">Главная</a>
                             </li>
                             <li>
-                                <a href="#">Стрелка вправо (символом)</a>
+                                <a href="#">Компания</a>
+                            </li>
+                            <li>
+                                <a href="#">Каталог</a>
+                            </li>
+                            <li>
+                                <a href="#">Новости</a>
+                            </li>
+                            <li>
+                                <a href="#">Спецпредложения</a>
+                            </li>
+                            <li>
+                                <a href="#">Доставка</a>
+                            </li>
+                            <li>
+                                <a href="#">Контакты</a>
                             </li>
                         </ul>
-                    <div class="open-catalog">
-                        <a href="#" class="open-catalog-btn">Открыть каталог</a>
-                    </div>
-                </article>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <!-- main-block -->
+        <div class="container">
 
-                <!-- Скидки -->
-                <article class="types-product-item">
-                    <!-- картинку добавить фоном -->
-                    <h2 class="types-product-title">Скидки 50%</h2>
-                    <div class="types-product-btn">
-                        <a href="#" class="types-product-button">на 350 товаров</a>
-                    </div>
-                </article>
+            <!-- promo-catalog (верхняя строка)-->
+            <div class="promo-catalog-top clearfix">
 
-                <!-- Доставка -->
-                <article class="types-product-item">
-                    <!-- картинку добавить фоном -->
-                    <h2 class="types-product-title">Доставка</h2>
-                    <div class="types-product-btn">
-                        <a href="#" class="types-product-button">бесплатно</a>
-                    </div>
-                </article>
+                <!-- promo-catalog-item (Материалы) -->
+                <div class="promo-catalog-item materials">
+                    <div class="promo-catalog-title">Материалы</div>
+                    <a href="#" class="button button-opacity">на любой вкус</a>
+                </div>
+
+                <!-- promo-catalog-item (Инструмент) -->
+                <div class="promo-catalog-item instrument">
+                    <div class="promo-catalog-title">Инструмент</div>
+                    <a href="#" class="button button-opacity">на все случаи</a>
+                </div>
+
+                <!-- promo-catalog-item (Техника)-->
+                <div class="promo-catalog-item equipment">
+                    <div class="promo-catalog-title">Техника</div>
+                    <a href="#" class="button button-opacity">для стройки</a>
+                </div>
             </div>
 
+            <!-- promo-catalog (нижняя строка) -->
+            <div class="promo-catalog-bottom clearfix">
+                
+                <!-- Слайдер -->
+                <slider class="slider">
+
+                    <!-- slide-1 -->
+                    <div class="slide slide-first">
+                        <h2 class="slide-title">Перфораторы</h2>
+                        <div class="slide-slogan">Настоящие мужские игрушки</div>
+                        <a href="#" class="button button-opacity">Открыть каталог</a>
+                    </div>
+
+                    <!-- slide-2 -->
+                    <div class="slide slide-second">
+                        <h2 class="slide-title">Дрели</h2>
+                        <div class="slide-slogan">Соседям на радость</div>
+                        <a href="#" class="button button-red">Открыть каталог</a>
+                    </div>
+                    
+                    <!-- slider-control -->
+                    <a href="#" class="clider-control slider-control-left">Назад</a>
+                    <a href="#" class="clider-control slider-control-right">Вперед</a>
+                    
+                    <!-- slider-pagination -->
+                    <ul class="slider-pagination">
+                        <li class="slider-pagination-item">1</li>
+                        <li class="slider-pagination-item active">2</li>
+                    </ul>
+                </slider>
+                
+                <!-- Блок (справа) для item -->
+                <div class="items-block">
+
+                    <!-- promo-catalog-item (Скидки)-->
+                    <div class="promo-catalog-item discount">
+                        <div class="promo-catalog-title">Скидки 50%</div>
+                        <a href="#" class="button button-opacity">на 350 товаров</a>
+                    </div>
+
+                    <!-- promo-catalog-item (Доставка)-->
+                    <div class="promo-catalog-item delivery">
+                        <div class="promo-catalog-title">Доставка</div>
+                        <a href="#" class="button button-opacity">бесплатно</a>
+                    </div>                    
+                </div>                
+            </div>
+            
+
             <!-- Популярные товары -->
-            <div class="popular-product clearfix">
-                <div class="popular-product-title">Популярные товары:</div>
-                <div class="all-product">
-                    <a href="#" class="all-product-btn">Все популярные товары</a>
-                </div>
+            <div class="section-title clearfix">
+                <h2 class="section-title-text">Популярные товары:</h2>
+                <a href="#" class="button button-red">Все популярные товары</a>
             </div>
 
             <!-- Каталог товаров -->
@@ -204,160 +192,155 @@
             </div>
 
             <!-- Популярные производители -->
-            <div class="popular-manufacturers" clearfix>
-                <div class="popular-manufacturers-title">Популярные производители:</div>
-                <div class="all-manufacturers">
-                    <a href="#" class="all-manufacturers-btn">Все производители</a>
-                </div>
+            <div class="section-title" clearfix>
+                <div class="section-title-text">Популярные производители:</div>
+                <a href="#" class="button button-red">Все производители</a>
             </div> 
 
             <!-- Каталог фирм -->
-            <div class="catalog-firms" clearfix>
-                <div class="catalof-firms-item">
+            <div class="catalog-firms">
+                <a href="#" class="catalof-firms-item">
                     <img src="http://placehold.it/218x143" width="218" height="143" alt="фирма1">
-                </div>
-                <div class="catalof-firms-item">
+                </a>
+                <a href="#" class="catalof-firms-item">
                     <img src="http://placehold.it/218x143" width="218" height="143" alt="фирма2">
-                </div>
-                <div class="catalof-firms-item">
+                </a>
+                <a href="#" class="catalof-firms-item">
                     <img src="http://placehold.it/218x143" width="218" height="143" alt="фирма3">
-                </div>
-                <div class="catalof-firms-item">
+                </a>
+                <a href="#" class="catalof-firms-item">
                     <img src="http://placehold.it/218x143" width="218" height="143" alt="фирма4">
-                </div>
-                <div class="catalof-firms-item">
+                </a>
+                <a href="#" class="catalof-firms-item">
                     <img src="http://placehold.it/218x143" width="218" height="143" alt="фирма5">
-                </div>
-                <div class="catalof-firms-item">
+                </a>
+                <a href="#" class="catalof-firms-item">
                     <img src="http://placehold.it/218x143" width="218" height="143" alt="фирма6">
-                </div>
+                </a>
+                <a href="#" class="catalof-firms-item">
+                    <img src="http://placehold.it/218x143" width="218" height="143" alt="фирма7">
+                </a>
+                <a href="#" class="catalof-firms-item">
+                    <img src="http://placehold.it/218x143" width="218" height="143" alt="фирма8">
+                </a>
             </div>
+        </div>
 
-            <!-- Сервисы -->
-            <div class="service-container">
-                <h1 class="service-title">Сервисы</h1>
+        <!-- Сервисы -->
+        <div class="service">
+            <div class="container">
+                <h2 class="service-title">Сервисы</h2>
                 <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
                 Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 
                 <!-- Контейнер меню услуг -->
-                <div class="service-types-container clearfix">
+                <div class="service-types clearfix">
 
                     <!-- Меню услуг -->
                     <ul class="service-types-menu">
                         <li>
-                            <a href="#" class="delivery">Доставка</a>
+                            <a href="#">Доставка</a>
                         </li>
                         <li>
-                            <a href="#" class="guarantee">Гарантия</a>
+                            <a href="#">Гарантия</a>
                         </li>
                         <li>
-                            <a href="#" class="credit">Кредит</a>
+                            <a href="#">Кредит</a>
                         </li>
                     </ul>
 
                     <!-- Описание услуги -->
-                    <div class="service-description">
-                        <h1 class="service-description-title">Доставка</h1>
+                    <div class="service-description delivery-picture">
+                        <h3 class="service-description-title">Доставка</h3>
                         <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
-                    </div>
-
-                        <!-- Картинка услуги -->
-                    <div class="service-description-picture">
-                        <img src="http://placehold.it/300x230" width="300" height="230" alt="Грузовая машина"> 
-                    </div>
-                </div>
-            </div>
-
-            <!-- Контакты -->
-            <div class="company-contacts-container clearfix">
-
-                <!-- Описание компании -->
-                <div class="company">
-                    <h1 class="company-title">Компания "Техномарт"</h1>
-                    <p>Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-                    <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
-                    Техномарт работает со многими транспортными компаниями:</p>
-                    <ul class="delivery-companies">
-                        <li>Деловые линии</li>
-                        <li>Автотрейдинг</li>
-                        <li>ЖелДорЭкспедиция</li>
-                    </ul>
-                    <div class="info-btn">
-                        <a href="#" class="company-info">Подробнее о компании</a>
-                    </div>
-                </div>
-
-                <!-- Контакты -->
-                <div class="contacts">
-                    <h1 class="contacts-title">Контакты</h1>
-                    <p>Вы можете забрать свой товар сами,<br>
-                    заехав в наш офис:</p>
-                    <div>
-                        <img src="http://placehold.it/300x155" width="300" height="155" alt="Схема проезда">
-                    </div>
-                    <div class="mail-btn">
-                        <a href="#" class="mail">Заблудились? Напишите нам!</a>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Контакты -->
+        <div class="contacts container clearfix">
+
+            <!-- Описание компании -->
+            <div class="company">
+                <h2 class="company-title">Компания "Техномарт"</h2>
+                <p>Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+                <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+                Техномарт работает со многими транспортными компаниями:</p>
+                <ul class="delivery-companies">
+                    <li>Деловые линии</li>
+                    <li>Автотрейдинг</li>
+                    <li>ЖелДорЭкспедиция</li>
+                </ul>
+                <a href="#" class="button button-red">Подробнее о компании</a>
+            </div>
+
+            <!-- Контакты -->
+            <div class="contacts">
+                <h2 class="contacts-title">Контакты</h2>
+                <p>Вы можете забрать свой товар сами,<br>
+                заехав в наш офис:</p>
+                <img src="http://placehold.it/300x155" width="300" height="155" alt="Схема проезда">
+                <a href="#" class="button-red">Заблудились? Напишите нам!</a>
+            </div>            
+        </div>    
         
         <!-- footer -->
         <footer class="main-footer">
             
-            <!-- синий (верхний) блок footera-->
-            <div class="footer-1">
-                <div class="footer-conteiner clearfix">
+            <!-- footer-top-->
+            <div class="footer-top">
+                <div class="conteiner clearfix">
 
                     <!-- column-left -->
-                    <div class="footer-column-1">
-                        <div class="footer-company-name">
-                            <a href="#" class="company">Техномарт</a>
-                        </div>
-                        <div class="footer-adress">
+                    <div class="footer-column-left">
+                        <div class="logo">Техномарт</div>
+                        <div class="adress">
                             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
                             +7 (812) 555-05-55
                         </div>
                     </div>
 
                     <!-- column-right -->
-                    <div class="footer-column-2"></div>
-                        <ul class="footer-navigation-1">
+                    <div class="footer-column-right">
+                        <ul class="footer-navigation-top">
                             <li>
-                                <a href="#" class="search">Компания</a>
+                                <a href="#">Компания</a>
                             </li>
                             <li>
-                                <a href="#" class="search">Новости</a>
+                                <a href="#">Новости</a>
                             </li>
                             <li>
-                                <a href="#" class="search">Каталог</a>
+                                <a href="#">Каталог</a>
                             </li>
                             <li>
-                                <a href="#" class="search">Доставка</a>
+                                <a href="#">Доставка</a>
                             </li>
                             <li>
-                                <a href="#" class="search">Контакты</a>
-                            </li>
-                        </ul>
-                        <ul class="footer-navigation-2">
-                            <li>
-                                <a href="#" class="search">Материалы</a>
-                            </li>
-                            <li>
-                                <a href="#" class="search">Техника</a>
-                            </li>
-                            <li>
-                                <a href="#" class="search">Инструмент</a>
-                            </li>
-                            <li>
-                                <a href="#" class="search">Спецпредложения</a>
+                                <a href="#">Контакты</a>
                             </li>
                         </ul>
+                        <ul class="footer-navigation-bottom">
+                            <li>
+                                <a href="#">Материалы</a>
+                            </li>
+                            <li>
+                                <a href="#">Техника</a>
+                            </li>
+                            <li>
+                                <a href="#">Инструмент</a>
+                            </li>
+                            <li>
+                                <a href="#">Спецпредложения</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
 
-            <!-- темно-синий (нижний) блок footera-->
-            <div class="footer-2">
-                <div class="footer-conteiner clearfix">        
+            <!-- footer-bottom-->
+            <div class="footer-bottom">
+                <div class="conteiner clearfix">
                        
                     <!-- Все права защищены -->
                     <div class="footer-rights">
@@ -381,7 +364,7 @@
                     <!-- Разработано -->
                     <div class="footer-copyright">
                         <p>Разработано</p>
-                            <a href="#" class="copyright">htmlacademy.ru</a>
+                        <a href="#" class="copyright">htmlacademy.ru</a>
                     </div>
                 </div>
             </div>
