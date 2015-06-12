@@ -1,0 +1,46 @@
+body{
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+/* index: БЫСТРО-КРУТО-ДОРОГО */
+.features-title{
+    font-size: 30px;
+    line-height: 42.33px;
+    color: white; 
+}
+
+/* index: Заглавия блоков */
+.content-column-title{
+    font-size: 30px;
+    line-height: 42.33px;
+}
+
+/* Catalog: Заглавие страницы "Средства для ухода" */
+/* Catalog-item: Заглавие страницы "Набор для путешествий «Baxter of California»" */
+/* Price: Заглавие страницы "Прайс-лист" */
+.page-title{
+    font-size: 30px;
+    line-height: 56.44px;
+}
+
+/* Catalog: Заглавия фильтров */
+.filter-title{
+    font-size: 24px;
+    line-height: 42.33px;
+}
+
+/* Catalog: Заглавия item */
+.catalog-item-title{
+    line-height: 18px; 
+}
+
+/* Price: Промо текст "Истинно мужская классика" */
+.promo-text-title{
+    font-size: 48px;
+    line-height: 42.33px;
+}
+
