@@ -44,3 +44,280 @@ body{
     line-height: 42.33px;
 }
 
+
+/* СЕТКА */
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.main-header{
+    padding: 5px 0;
+
+    background: blue;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+
+    min-height: 20px;
+    padding: 5px;
+
+    background: red;
+}
+
+.main-navigation{
+    float: left;
+
+    width: 800px;
+
+    min-height: 20px;
+
+    background: yellow;
+}
+
+.user-block{
+    float: right;
+
+    width: 90px;
+
+    min-height: 20px;
+
+    background: yellow;
+}
+
+.main-container{
+    margin: 30px auto; 
+}
+
+.logo{
+    width: 368px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+
+    min-height: 120px;
+
+    background: yellow;
+}
+
+.features-row{
+    margin-bottom: 35px;
+
+    padding: 5px;
+
+    background: yellow;
+}
+
+.features-item{
+    float: left;
+    margin-right: 15px;
+    width: 300px;
+
+    min-height: 150px;
+
+    background: green;
+}
+
+.features-item:last-child{
+    float: right;
+    margin-right: 0;
+}
+
+.index-content{
+    margin-bottom: 20px;
+    padding: 55px 80px;
+
+    background: yellow;
+}
+
+.content-column-left,
+.content-column-right{
+    width: 300px;    
+
+    min-height: 320px;   
+}
+
+.content-column-left{
+    float: left;
+
+    background: green;
+}
+
+.content-column-right{
+    float: right;
+
+    background: green;
+}
+
+.main-footer{
+    padding: 20px 0;
+
+    background: blue;
+}
+
+.footer-contacts{
+    float: left;
+    width: 320px;
+    margin-right: 80px;
+
+    min-height: 80px;
+
+    background: yellow;
+}
+
+.footer-social{
+    float: left;
+    width: 140px;
+
+    min-height: 80px;
+
+    background: yellow;
+}
+
+.footer-copyright{
+    float: right;
+    width: 320px;
+
+    min-height: 80px;
+
+    background: yellow;
+}
+
+
+
+
+/* catalog */
+.page-title{
+    background: yellow;
+}
+
+.breadcrumbs{
+    padding: 0;
+    background: yellow;
+}
+
+.catalog{
+    padding: 5px 0;
+
+    background: yellow;
+}
+
+.filter{
+    float: left;
+    width: 220px;
+    margin: 5px;
+
+    background: green;
+}
+
+.catalog-container{
+    float: right;
+    width: 700px;
+    margin: 5px;
+
+    background: green;
+}
+
+.catalog-item{
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    margin: 5px;
+
+    background: orange;
+}
+
+.pagination{
+    display: inline-block;
+    margin: 5px;
+    
+    background: orange;
+}
+
+
+
+
+/* catalog-item */
+.main-content{
+    margin-bottom: 20px;
+    background: yellow;
+}
+
+.main-content-left{
+    float: left;
+    width: 460px;
+    margin: 5px;
+
+    background: green;
+}
+
+.picture-small{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main-content-right{
+    float: right;
+    width: 400px;
+    margin: 5px;
+
+    background: green;
+}
+
+
+
+
+/* price */
+.promo-text{
+    background: yellow;
+}
+
+.main-content-column-left{
+    float: left;
+    width: 380px;
+    margin: 5px;
+    padding: 5px;
+
+    background: green;
+}
+
+.main-content-column-right{
+    float: right;
+    margin: 5px;
+    width: 460px;
+    padding: 5px;
+
+    background: green;
+}
+
+.description-title{
+    margin-bottom: 10px;
+
+    background: yellow;
+}
+
+.main-description{
+    background: yellow;
+}
+
+.description-content-left{
+    float: left; 
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    
+    background: green;
+}
+
+.description-content-right{
+    float: right; 
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    
+    background: green;
+}
