@@ -1,98 +1,10 @@
 body{
     font-family: Cuprum, Arial, sans-serif;
     font-size: 18px;
-    line-height: 24px;
     color: #000000;
 }
 
 /* font-family: 'PT Sans', Arial, sans-serif; */
-
-/* index: Интернет-магазин */
-.shop-block{
-    float: left;
-    width: 200px;
-    min-height: 100px;
-    margin-left: 54px;
-    margin-top: 0px;
-
-	font-style: italic;
-    font-size: 16px;
-    line-height: 23px;
-    color: #ff3333;
-
-    background: orange;
-}
-
-/* index: Заглавия слайдера */
-.slide-title{
-	font-weight: bold;
-    font-size: 36px;
-    line-height: 30px;
-    color: #ffffff;
-}
-
-/* index: Популярные товары + Популярные производители */
-.section-title-text{
-    float: left;
-
-    font-size: 30px;
-    line-height: 30px;
-    color: #32425c;
-
-    background: orange;
-}
-
-
-/* index: Названия товаров каталога */
-/* catalog: Названия товаров каталога */
-.catalog-item-title{
-	font-family: "PT Sans", Arial, sans-serif;
-	font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-}
-
-/* index: Заглавие блока "Сервис" */
-/* index: Заглавие блока "Компания ТЕХНОМАРТ" */
-/* index: Заглавие блока "Контакты" */
-/* catalog: Заглавие блока "Контакты" */
-.block-title{
-	font-size: 30px;
-    line-height: 24px;
-
-    background: orange;
-}
-
-/* index: Заглавия описаний серивсов (Доставка, Гарантия, Кредит) */
-.service-description-title{
-    font-size: 36px;
-    line-height: 24px;
-    color: #333366;
-}
-
-/* catalog: Заглавие страницы (ПЕРФОРАТОРЫ) */
-.page-title{
-    font-size: 30px;
-    line-height: 30px;
-    color: #333366;
-
-    background: green;
-}
-
-/* catalog: Заглавие фильтра "Цена" */
-/* catalog: Заглавие фильтра "Производители" */
-/* catalog: Заглавие фильтра "Питание" */
-.filter-title{
-	font-family: "PT Sans", Arial, sans-serif;
-	font-weight: bold;
-	font-size: 17px;
-    line-height: 30px;
-}
-
-
-
-/* CЕТКА */
-/* index */
 
 .clearfix:after {
     content: '';
@@ -100,394 +12,383 @@ body{
     clear: both;
 }
 
-.main-header{
-    padding: 5px;
+    /*===================================================
+    Неader
+    =====================================================*/
+    
+    .main-header{
+        background: #f1f5f7;
+    }
+
+    .header-top{
+        background: #293449;
+    }
+
+    .container{
+        width: 940px;
+        margin: 0 auto;
+    }
+
+    .logo{
+        float: left;
+        width: 220px;
+        padding: 12px 0;
+        text-align: center;
+        color: white;
+        background: #ee3643;
+    }
+
+    .search-btn{
+        float: left;
+        width: 230px;
+        padding: 10px;
+    }
+
+    .header-button{
+        float: right;
+        font-size: 0;
+    }
+
+    .header-btn{
+        display: inline-block;
+        width: 150px;
+        margin: 12px 0;
+        font-size: 17px;
+        text-align: center;
+        color: white;
+    }
+
+    .header-bottom{
+        padding-bottom: 60px;
+    }
+
+    .info-container{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+    .shop-block{
+        float: left;
+        width: 200px;    
+        margin-top: 0px;
+        margin-left: 53px;
+        margin-right: 80px;
+        font-size: 16px;
+        font-style: italic;
+        color: #ff3333;
+    }
+
+    .contact-block{
+        float: left;
+        width: 270px;
+    }
+
+    .user-block{
+        float: right;
+        width: 280px;
+    }
+
+    .main-navigation{
+        font-size: 0;
+        padding: 22px 0;
+        background: #32425c;
+    }
+
+    .main-navigation li{
+        display: inline-block;
+        margin-right: 60px;
+        font-size: 17px;
+    }
+
+    .main-navigation a{
+        color: white;
+    }
+        
+    /* ==================== page-1 INDEX ========================*/
+
+    .promo-catalog-item{
+        float: left;
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .promo-catalog-item:last-child{
+        margin-right: 0px;
+    }
+
+    .slider{
+        float: left;
+        width: 620px;
+    }
+    
+    .slide-title{
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .items-block{
+        float: right;
+    }
+
+    .items-block .promo-catalog-item{
+        float:none;
+        margin-right: 0px;
+    }
+
+    .section-title{
+        padding: 25px 0;
+        background: #f7f3ec;
+    }
+
+    .section-title-text{
+        float: left;
+        margin: 0;
+
+        font-size: 30px;
+        color: #32425c;
+    }
+
+    .section-title a{
+        float: right;
+    }
+
+    .catalog{
+        font-size: 0;
+    }
+
+    .catalog-item{
+        float: left;
+        width: 220px;
+        margin-right: 20px;
+        font-size: 17px;
+    }
+
+    .catalog-item:last-child{
+        margin-right: 0;
+    }
+    
+    .catalog-item-title{
+        font-family: "PT Sans", Arial, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .catalog-firms{
+        font-size: 0;
+    }
+
+    .catalog-firms-item{
+        display: inline-block;
+        vertical-align: top;
+        width: 220px;        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+
+    .catalog-firms-item:nth-child(4),
+    .catalog-firms-item:nth-child(8){
+        margin-right: 0;
+    }
+
+    .service{
+        background: #f2f6f8;
+    }
+    
+    .block-title{
+        padding: 20px 0;
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .service-types-menu{
+        float: left;
+        width: 240px;
+        margin: 0;
+    }
+
+    .service-description{
+        float: right;
+        width: 620px;
+    }
+
+    .service-description-title{
+        margin: 0;
+        font-size: 36px;
+        color: #333366;
+    }
+
+    .contacts-block{
+        padding-bottom: 87px;
+    }
+
+    .company{
+        float: left;
+        width: 560px;
+    }
+
+    .contacts{
+        float: right;
+        width: 300px;
+    }
+
+    /*===================== page-2 CATALOG ======================*/
+    
+    .breadcrumbs{
+        padding: 25px 0;
+        font-size: 0;
+    }
+    
+    .page-title{
+        margin: 0;
+        padding: 35px 0;
+        font-size: 30px;
+        color: #333366;
+        background: #f2f6f8;
+    }
+
+    .breadcrumbs li{
+        display: inline-block;
+        font-size: 13px;
+    }
+
+    .sidebar{
+        float: left;
+        width: 220px;
+    }
+    
+    .filter-title{
+        font-family: "PT Sans", Arial, sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .main-catalog{
+        float: right;
+        width: 700px;
+    }
+
+    .sorting-name{
+        float: left;
+        width: 160px;
+    }
+
+    .sorting-points{
+        float: right;
+        width: 460px;
+        margin: 0;
+        font-size: 0;
+    }
+
+    .sorting-points li{
+        display: inline-block;
+        font-size: 13px;
+    }
+
+    .catalog-block{
+        font-size: 0;
+    }
+
+    .catalog-block-item{
+        display: inline-block;
+        vertical-align: top;
+        width: 220px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .catalog-block-item:nth-child(3),
+    .catalog-block-item:nth-child(6),
+    .catalog-block-item:nth-child(9){
+        margin-right: 0;
+    }
+
+    .pagination{
+        margin: 0;
+        padding: 0;
+    }
+
+    .pagination li{
+        display: inline-block;
+        font-size: 13px;
+    }
+
+    .about-info{
+        background: #f2f6f8;
+    }
+
+
+    /*=============================================================
+    Footer
+    ===============================================================*/
+
+    .main-footer{
+        background: #293449;
+    }
+
+    .footer-top{
+        background: #32425c;
+    }
+
+    .footer-column-left{
+        float: left;
+        width: 380px;
+    }
+
+    .main-footer .logo{
+        float: none;
+    }
+
+    .adress{
+    }
+
+    .footer-column-right{
+        float: right;
+        width: 550px;
+    }
+
+    .footer-navigation{
+        margin-top: 40px;
+        padding: 0;
+        font-size: 0;
+    }
+
+    .footer-navigation li{
+        display: inline-block;
+        font-size: 18px;
+        color: white;
+    }
+
+    .footer-navigation-bottom{
+        margin-bottom: 80px;
+        margin-left: 28px;
+    }
+
+    .footer-rights{
+        float: left;
+        width: 230px;
+        margin-right: 160px;
+    }
+
+    .footer-social{
+        float: left;
+        width: 150px;
+        margin-right: 100px;
+    }
+
+    .footer-feedback{
+        float: left;
+        width: 140px;
+        margin-right: 50px;
+    }
+
+    .footer-copyright{
+        float: left;
+        width: 110px;
+    }
 
-    background: #f1f5f7;
-}
-
-.header-top{
-    padding: 5px;
-
-    background: #293449;
-}
-
-.container{
-    width: 940px;
-    margin: 0 auto;
-    padding: 5px;
-
-    background: yellow;
-}
-
-.logo{
-    float: left;
-    width: 220px;
-    padding: 12px 0;
-    text-align: center;
-
-    background: red;
-}
-
-.search-btn{
-    float: left;
-    width: 240px;
-    padding: 12px;
-
-    background: white;
-}
-
-.header-btn{
-    float: right;
-    width: 150px;
-    padding: 12px 0;
-    text-align: center;
-
-    background: white;
-}
-
-.header-bottom{
-     padding: 5px;
-
-     background: #f1f5f7;
-}
-
-.info-container{
-    padding: 10px;
-    margin-bottom: 5px;
-
-    background: green;
-}
-
-.contact-block{
-    float: left;
-    width: 320px;
-    min-height: 100px;
-    margin-left: 54px;
-
-    background: orange;
-}
-
-.user-block{
-    float: right;
-    width: 280px;
-    min-height: 100px;
-    margin-top: 0px;
-
-    background: orange;
-}
-
-.main-navigation{
-    background: green;
-    font-family: 'PT Sans', Arial, sans-serif;
-}
-
-.promo-catalog-top{
-    padding: 5px;
-
-    background: green;
-}
-
-.promo-catalog-item{
-    width: 300px;
-    min-height: 123px;
-
-    background: orange;
-}
-
-.materials{
-    float: left;
-    margin-right: 15px;
-}
-
-.instrument{
-    float: left;
-}
-
-.equipment{
-    float: right;
-}
-
-
-.promo-catalog-bottom{
-    padding: 5px;
-
-    background: green;
-}
-
-.slider{
-    float: left;
-    width: 620px;
-    min-height: 266px;
-
-    background: orange;
-}
-
-.items-block{
-    float: right;
-    background: green;
-}
-
-.discount{
-    margin-bottom: 5px;
-
-}
-
-.section-title{
-    margin: 5px 0;
-
-    background: #f7f3ec;
-
-}
-
-.section-title a{
-    float: right;
-
-    background: orange;
-}
-
-.catalog{
-    background: green;
-}
-
-.catalog-item{
-    float: left;
-    width: 220px;
-    margin-right: 20px;
-    background: blue;
-}
-
-.catalog-item:last-child{
-    float: right;
-    margin-right: 0px;
-    background: blue;
-}
-
-.catalog-firms{
-    background: green;
-}
-
-.catalog-firms-item{
-    display: inline-block;
-    vertical-align: top;
-    width: 220px;
-    min-height: 143px;
-    text-align: center;
-
-    margin-bottom: 5px;
-    margin-right: 11px;
-
-    background: blue;
-}
-
-.service{
-    background: #f2f6f8;
-}
-
-.service-types{
-    background: green;
-}
-
-.service-types-menu{
-    float: left;
-    width: 240px;
-    min-height: 182px;
-    margin: 5px;
-
-    background: white;
-}
-
-.service-description{
-    float: right;
-    width: 620px;
-    min-height: 182px;
-    margin: 5px;
-
-    background: white;
-}
-
-.contacts-block{
-    padding: 5px;
-
-    background: green;
-}
-
-.company{
-    float: left;
-    width: 560px;
-
-    background: white;
-}
-
-.contacts{
-    float: right;
-    width: 300px;
-
-    background: white;
-}
-
-.main-footer{
-    padding: 5px;
-
-    background: #293449;
-}
-
-.footer-top{
-    margin-bottom: 5px;
-    background: #32425c;
-}
-
-.footer-column-left{
-    float: left;
-    width: 380px;
-    padding-bottom: 150px;
-
-    background: orange;
-}
-
-.adress{
-    margin-top: 70px;
-
-    background: white;
-}
-
-.footer-column-right{
-    float: right;
-    width: 550px;
-
-    background: orange;
-}
-
-.footer-navigation{
-    background: red;
-    margin: 0;
-    margin-bottom: 15px;
-}
-
-.footer-rights{
-    float: left;
-    width: 310px;
-    margin-right: 30px;
-
-    background: white;
-}
-
-.footer-social{
-    float: left;
-    width: 150px;
-    margin-right: 30px;
-
-    background: white;
-}
-
-.footer-feedback{
-    float: left;
-    width: 140px;
-    margin-right: 30px;
-
-    background: white;
-}
-
-.footer-copyright{
-    float: right;
-    width: 140px;
-
-    background: white;
-}
-
-
-/* Catalog */
-.breadcrumbs{
-    background: green;
-}
-
-.main-container{
-    background: green;
-}
-
-.sidebar{
-    float: left;
-    width: 220px;
-
-    margin: 5px;
-
-    background: orange;
-}
-
-.main-catalog{
-    float: right;
-    width: 700px;
-
-    padding: 5px;
-
-    background: orange;
-}
-
-.sorting{
-    margin-bottom: 5px;
-    padding: 5px;
-    background: red;
-}
-
-.sorting-name{
-    float: left;
-    width: 160px;
-
-    background: white;
-}
-
-.sorting-points{
-    float: right;
-    width: 460px;
-    margin: 0;
-
-    background: white;
-}
-
-.catalog-block{
-    margin-bottom: 5px;
-    background: red;
-}
-
-.catalog-block-item{
-    display: inline-block;
-    vertical-align: top;
-    width: 220px;
-    min-height: 143px;
-    text-align: center;
-
-    margin-bottom: 5px;
-    margin-right: 10px;
-
-    background: white;
-}
-
-.pagination{
-    margin: 0;
-
-    background: red;
-}
-
-.about-info{
-    background: #f2f6f8;
-}
-
-
-base (нормалайз, базовые шрифты, портальны фреймворк)
-project
-  header (который повторяется со всеми модификациями)
-  page-1 (стили страницы)
-    section-1 (стили секции на странице)
-    ...
-    section-n
-  ...
-  page-n
-  footer (который потворяется со всеми модификациями)
-
-
-
-/*===================
-  Header
-==================== */
-
-/* section - 1 */
