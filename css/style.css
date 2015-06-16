@@ -6,318 +6,214 @@ body{
     color: black;
 }
 
-/* index: БЫСТРО-КРУТО-ДОРОГО */
-.features-title{
-    font-size: 30px;
-    line-height: 42.33px;
-    color: white; 
-}
-
-/* index: Заглавия блоков */
-.content-column-title{
-    font-size: 30px;
-    line-height: 42.33px;
-}
-
-/* Catalog: Заглавие страницы "Средства для ухода" */
-/* Catalog-item: Заглавие страницы "Набор для путешествий «Baxter of California»" */
-/* Price: Заглавие страницы "Прайс-лист" */
-.page-title{
-    font-size: 30px;
-    line-height: 56.44px;
-}
-
-/* Catalog: Заглавия фильтров */
-.filter-title{
-    font-size: 24px;
-    line-height: 42.33px;
-}
-
-/* Catalog: Заглавия item */
-.catalog-item-title{
-    line-height: 18px; 
-}
-
-/* Price: Промо текст "Истинно мужская классика" */
-.promo-text-title{
-    font-size: 48px;
-    line-height: 42.33px;
-}
-
-
-/* СЕТКА */
-
 .clearfix:after {
     content: '';
     display: table;
     clear: both;
 }
 
-.main-header{
-    padding: 5px 0;
 
-    background: blue;
-}
+    /*===============================================
+    Header
+    =================================================*/
 
-.container{
-    width: 940px;
-    margin: 0 auto;
+    .container{
+        width: 940px;
+        margin: 0 auto;
+    }
 
-    min-height: 20px;
-    padding: 5px;
+    .main-navigation{
+        float: left;
+        width: 800px;
+    }
 
-    background: red;
-}
+    .main-navigation ul{
+        margin: 0;
+        padding: 0;    
+        font-size: 0;
+    }
 
-.main-navigation{
-    float: left;
+    .main-navigation li{
+        display: inline-block;
+        font-size: 16px;
+    }
 
-    width: 800px;
-
-    min-height: 20px;
-
-    background: yellow;
-}
-
-.user-block{
-    float: right;
-
-    width: 90px;
-
-    min-height: 20px;
-
-    background: yellow;
-}
-
-.main-container{
-    margin: 30px auto; 
-}
-
-.logo{
-    width: 368px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-
-
-    min-height: 120px;
-
-    background: yellow;
-}
-
-.features-row{
-    margin-bottom: 35px;
-
-    padding: 5px;
-
-    background: yellow;
-}
-
-.features-item{
-    float: left;
-    margin-right: 15px;
-    width: 300px;
-
-    min-height: 150px;
-
-    background: green;
-}
-
-.features-item:last-child{
-    float: right;
-    margin-right: 0;
-}
-
-.index-content{
-    margin-bottom: 20px;
-    padding: 55px 80px;
-
-    background: yellow;
-}
-
-.content-column-left,
-.content-column-right{
-    width: 300px;    
-
-    min-height: 320px;   
-}
-
-.content-column-left{
-    float: left;
-
-    background: green;
-}
-
-.content-column-right{
-    float: right;
-
-    background: green;
-}
-
-.main-footer{
-    padding: 20px 0;
-
-    background: blue;
-}
-
-.footer-contacts{
-    float: left;
-    width: 320px;
-    margin-right: 80px;
-
-    min-height: 80px;
-
-    background: yellow;
-}
-
-.footer-social{
-    float: left;
-    width: 140px;
-
-    min-height: 80px;
-
-    background: yellow;
-}
-
-.footer-copyright{
-    float: right;
-    width: 320px;
-
-    min-height: 80px;
-
-    background: yellow;
-}
+    .user-block{
+        float: right;
+        width: 90px;
+    }
 
 
 
+    /*====== page-1 INDEX ======*/
+    .logo{
+        width: 368px;
+        margin: 0 auto;
+    }
 
-/* catalog */
-.page-title{
-    background: yellow;
-}
+    .features-item{
+        float: left;
+        width: 300px;
+        margin-right: 20px;
+        
+    }
 
-.breadcrumbs{
-    padding: 0;
-    background: yellow;
-}
+    .features-item:last-child{
+        margin-right: 0;
+    }
 
-.catalog{
-    padding: 5px 0;
+    .features-title{
+        font-size: 30px;
+        line-height: 42.33px;        
+    }
 
-    background: yellow;
-}
+    .index-content{
+        padding: 55px 80px;
+     }
 
-.filter{
-    float: left;
-    width: 220px;
-    margin: 5px;
+    .content-column-left,
+    .content-column-right{
+        float: left;
+        width: 300px;    
+    }
 
-    background: green;
-}
+    .content-column-right{
+        float: right;
+    }
 
-.catalog-container{
-    float: right;
-    width: 700px;
-    margin: 5px;
+    .content-column-title{
+        font-size: 30px;
+        line-height: 42.33px;
+    }
 
-    background: green;
-}
+    .gallery-content{
+        margin: 0;
+    }
 
-.catalog-item{
-    display: inline-block;
-    vertical-align: top;
-    width: 220px;
-    margin: 5px;
 
-    background: orange;
-}
 
-.pagination{
-    display: inline-block;
-    margin: 5px;
+    /*====== page-2 CATALOG ======*/
+    .page-title{
+        margin: 0;
+        font-size: 30px;
+        line-height: 56.44px;
+    }
+
+    .breadcrumbs{
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+    }
     
-    background: orange;
-}
+    .breadcrumbs li{
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .filter{
+        float: left;
+        width: 220px;
+    }
+
+    .filter-title{
+        font-size: 24px;
+        line-height: 42.33px;
+    }
+
+    .catalog-container{
+        float: right;
+        width: 700px;
+        font-size: 0;
+    }
+
+    .catalog-item{
+        display: inline-block;
+        vertical-align: top;
+        width: 220px;
+        font-size: 18px;
+    }
+
+    .catalog-item-title{
+        line-height: 18px; 
+    }
+
+    .pagination{
+        padding: 0;
+    }
+
+    .pagination li{
+        display: inline-block;
+        font-size: 18px;
+    }
+
+
+
+    /*====== page-3 CATALOG-ITEM ======*/
+    .main-content-left{
+        float: left;
+        width: 460px;
+        font-size: 0;
+    }
+
+    .picture-small{
+        display: inline-block;
+        width: 140px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+     .picture-small:last-child{
+        margin-right: 0;
+     }
+
+    .main-content-right{
+        float: right;
+        width: 400px;
+    }
+
+
+
+    /*====== page-4 PRICE ======*/
+    .promo-text{
+        /* background: yellow; */
+    }
+
+    .promo-text-title{
+        margin: 0;
+        font-size: 48px;
+        line-height: 42.33px;    
+    }
+
+    .main-content-column-left{
+        float: left;
+        width: 380px;
+    }
+
+    .main-content-column-right{
+        float: right;
+        width: 460px;
+    }
 
 
 
 
-/* catalog-item */
-.main-content{
-    margin-bottom: 20px;
-    background: yellow;
-}
 
-.main-content-left{
-    float: left;
-    width: 460px;
-    margin: 5px;
+    /*=======================================================
+    Footer
+    =========================================================*/
 
-    background: green;
-}
+    .footer-contacts{
+        float: left;
+        width: 320px;
+        margin-right: 80px;
+    }
 
-.picture-small{
-    display: inline-block;
-    margin-right: 10px;
-}
+    .footer-social{
+        float: left;
+        width: 140px;
+    }
 
-.main-content-right{
-    float: right;
-    width: 400px;
-    margin: 5px;
-
-    background: green;
-}
-
-
-
-
-/* price */
-.promo-text{
-    background: yellow;
-}
-
-.main-content-column-left{
-    float: left;
-    width: 380px;
-    margin: 5px;
-    padding: 5px;
-
-    background: green;
-}
-
-.main-content-column-right{
-    float: right;
-    margin: 5px;
-    width: 460px;
-    padding: 5px;
-
-    background: green;
-}
-
-.description-title{
-    margin-bottom: 10px;
-
-    background: yellow;
-}
-
-.main-description{
-    background: yellow;
-}
-
-.description-content-left{
-    float: left; 
-    width: 300px;
-    margin: 5px;
-    padding: 5px;
-    
-    background: green;
-}
-
-.description-content-right{
-    float: right; 
-    width: 300px;
-    margin: 5px;
-    padding: 5px;
-    
-    background: green;
-}
+    .footer-copyright{
+        float: right;
+        width: 140px;
+    }
