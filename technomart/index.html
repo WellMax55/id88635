@@ -17,11 +17,12 @@
                 <div class="container clearfix">
                     <div class="logo">Техномарт</div>
                     <form class="search-btn">
+                        <i class="icon-search"></i>
                         <input type="text" placeholder="Поиск">
                     </form>
                     <div class="header-button">
-                        <a href="#" class="header-btn bookmark">Закладки:</a>
-                        <a href="#" class="header-btn recycle">Корзина:</a>
+                        <a href="#" class="header-btn bookmark"><i class="icon-bookmark"></i>Закладки: 0</a>
+                        <a href="#" class="header-btn recycle"><i class="icon-basket"></i>Корзина: 0</a>
                         <a href="#" class="header-btn checkout">Оформить заказ</a>
                     </div>
                 </div>
@@ -36,11 +37,11 @@
                         <h1 class="shop-block">Интернет-магазин строительных материалов и инстументов для ремонта</h1>
                         <div class="contact-block">
                             <div class="tel">+7 (812) 555-05-55</div>
-                            <div class="address">г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</div>
+                            <div class="address">г.Санкт-Петербург, ул. Б. Конюшенная, д.19/8</div>
                         </div>
                         <div class="user-block">
-                            <a href="#" class="btn login">Войти</a>
-                            <a href="#" class="btn registration">Регистрация</a>
+                            <a href="#" class="user-btn login"><i class="icon-login"></i>Войти</a>
+                            <a href="#" class="user-btn registration">Регистрация</a>
                         </div>
                     </div>
 
@@ -109,13 +110,13 @@
                     <div class="slide slide-first">
                         <h2 class="slide-title">Перфораторы</h2>
                         <div class="slide-slogan">Настоящие мужские игрушки</div>
-                        <a href="#" class="button button-opacity">Открыть каталог</a>
+                        <a href="#" class="button button-red">Открыть каталог</a>
                     </div>
 
                     <!-- slide-2 -->
                     <div class="slide slide-second">
                         <h2 class="slide-title">Дрели</h2>
-                        <div class="slide-slogan">Соседям на радость</div>
+                        <div class="slide-slogan">Соседям на радость!</div>
                         <a href="#" class="button button-red">Открыть каталог</a>
                     </div>
 
@@ -158,38 +159,55 @@
             <div class="catalog clearfix">
                 <!-- catalog-item -->
                 <article class="catalog-item">
+                    <div class="actions">
+                        <a href="#" class="buy">Купить</a>
+                        <a href="#" class="bookmark">В закладки</a>
+                    </div>
                     <img src="img/picture-catalog-item.jpg" width="218" height="150">
                     <div class="descriprion-item">
                         <h3 class="catalog-item-title">Перфоратор <span>bosh bfg 900</span></h3>
-                        <div class="old-price">32500 р.</div>
-                        <div class="price">25500 р.</div>
+                        <div class="old-price">32 500 р.</div>
+                        <div class="price">25 500 р.</div>
                     </div>
                 </article>
                 <!-- catalog-item -->
                 <article class="catalog-item">
+                    <div class="actions">
+                        <a href="#" class="buy">Купить</a>
+                        <a href="#" class="bookmark">В закладки</a>
+                    </div>
                     <img src="img/picture-catalog-item.jpg" width="218" height="150">
                     <div class="descriprion-item">
                         <h3 class="catalog-item-title">Перфоратор <span>bosh bfg 3000</span></h3>
-                        <div class="old-price">22500 р.</div>
-                        <div class="price">15500 р.</div>
+                        <div class="old-price">22 500 р.</div>
+                        <div class="price">15 500 р.</div>
                     </div>
                 </article>
                 <!-- catalog-item -->
                 <article class="catalog-item">
+                    <div class="actions">
+                        <a href="#" class="buy">Купить</a>
+                        <a href="#" class="bookmark">В закладки</a>
+                    </div>
                     <img src="img/picture-catalog-item.jpg" width="218" height="150">
                     <div class="descriprion-item">
                         <h3 class="catalog-item-title">Перфоратор <span>bosh bfg 6000</span></h3>
-                        <div class="old-price">30500 р.</div>
-                        <div class="price">25500 р.</div>
+                        <div class="old-price">30 500 р.</div>
+                        <div class="price">25 500 р.</div>
                     </div>
                 </article>
                 <!-- catalog-item -->
                 <article class="catalog-item">
+                    <div class="flag flag-new">новинка</div>
+                    <div class="actions">
+                        <a href="#" class="buy">Купить</a>
+                        <a href="#" class="bookmark">В закладки</a>
+                    </div>
                     <img src="img/picture-catalog-item.jpg" width="218" height="150">
                     <div class="descriprion-item">
                         <h3 class="catalog-item-title">Перфоратор <span>bosh bfg 2000</span></h3>
-                        <div class="old-price"></div>
-                        <div class="price">12500 р.</div>
+                        <div class="old-price">123</div>
+                        <div class="price">12 500 р.</div>
                     </div>
                 </article>
             </div>
@@ -203,28 +221,28 @@
             <!-- Каталог фирм -->
             <div class="catalog-firms">
                 <a href="#" class="catalog-firms-item">
-                    <img src="img/logo-firm-1.jpg" width="126" height="37" alt="фирма1">
+                    <img src="img/logo-firm-1.jpg" width="126" height="37" alt="bosh">
                 </a>
                 <a href="#" class="catalog-firms-item">
-                    <img src="img/logo-firm-2.jpg" width="123" height="40" alt="фирма2">
+                    <img src="img/logo-firm-2.jpg" width="123" height="40" alt="makita">
                 </a>
                 <a href="#" class="catalog-firms-item">
-                    <img src="img/logo-firm-3.jpg" width="146" height="44" alt="фирма3">
+                    <img src="img/logo-firm-3.jpg" width="146" height="44" alt="dewolt">
                 </a>
                 <a href="#" class="catalog-firms-item">
-                    <img src="img/logo-firm-4.jpg" width="200" height="88" alt="фирма4">
+                    <img src="img/logo-firm-4.jpg" width="200" height="88" alt="interskol">
                 </a>
                 <a href="#" class="catalog-firms-item">
-                    <img src="img/logo-firm-5.jpg" width="169" height="31" alt="фирма5">
+                    <img src="img/logo-firm-5.jpg" width="169" height="31" alt="hitachi">
                 </a>
                 <a href="#" class="catalog-firms-item">
-                    <img src="img/logo-firm-6.jpg" width="121" height="73" alt="фирма6">
+                    <img src="img/logo-firm-6.jpg" width="121" height="73" alt="lg">
                 </a>
                 <a href="#" class="catalog-firms-item">
-                    <img src="img/logo-firm-7.jpg" width="151" height="96" alt="фирма7">
+                    <img src="img/logo-firm-7.jpg" width="151" height="96" alt="aeg7">
                 </a>
                 <a href="#" class="catalog-firms-item">
-                    <img src="img/logo-firm-8.jpg" width="204" height="69" alt="фирма8">
+                    <img src="img/logo-firm-8.jpg" width="204" height="69" alt="metado">
                 </a>
             </div>
         </div>
@@ -233,7 +251,8 @@
         <div class="service">
             <div class="container">
                 <h2 class="block-title">Сервисы</h2>
-                <p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+                <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
+                   Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 
                 <!-- Контейнер меню услуг -->
                 <div class="service-types clearfix">
@@ -267,7 +286,7 @@
                 <div class="company">
                     <h2 class="block-title">Компания "Техномарт"</h2>
                     <p>Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-                    <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+                    <p class="short">Мы можем доставить ваш товар в самые отдаленные точки России!<br>
                     Техномарт работает со многими транспортными компаниями:</p>
                     <ul class="delivery-companies">
                         <li>Деловые линии</li>
@@ -280,9 +299,10 @@
                 <!-- Контакты -->
                 <div class="contacts">
                     <h2 class="block-title">Контакты</h2>
-                    <p>Вы можете забрать свой товар сами, заехав в наш офис:</p>
+                    <p>Вы можете забрать свой товар сами, <br>
+                       заехав в наш офис:</p>
                     <img src="img/picture-map.jpg" width="300" height="155" alt="Схема проезда">
-                    <a href="#" class="button-red">Заблудились? Напишите нам!</a>
+                    <a href="#" class="button button-red">Заблудились? Напишите нам!</a>
                 </div>
             </div>
         </div>
@@ -352,20 +372,20 @@
 
                     <!-- Социальные сети -->
                     <div class="footer-social">
-                        <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
-                        <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
-                        <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+                        <a href="#" class="social-btn social-btn-vk"><i class="icon-vk"></i></a>
+                        <a href="#" class="social-btn social-btn-fb"><i class="icon-facebook"></i></a>
+                        <a href="#" class="social-btn social-btn-inst"><i class="icon-instagramm"></i></a>
                     </div>
 
                     <!-- Обратная связь -->
                     <div class="footer-feedback">
-                        <p>Обратная связь</p>
+                        <p>Обратная связь:</p>
                         <a href="mailto:mail@htmlacademy.ru" class="feedback">mail@htmlacademy.ru</a>
                     </div>
 
                     <!-- Разработано -->
                     <div class="footer-copyright">
-                        <p>Разработано</p>
+                        <p>Разработано - </p>
                         <a href="#" class="copyright">htmlacademy.ru</a>
                     </div>
                 </div>
