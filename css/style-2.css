@@ -43,7 +43,7 @@
 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em
+  margin-left: .2em;
 
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
@@ -531,9 +531,7 @@ body{
         position: absolute;
         width: 45px;
         top: 50%;
-        -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
+        transform: translateY(-50%);
         z-index: 1000;
 
         font-size:45px;
@@ -864,9 +862,7 @@ body{
     .catalog-firms-item>img{
         position: relative;
         top: 50%;
-        -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
+        transform: translateY(-50%);
     }
 
     .catalog-firms-item:nth-child(4n){
@@ -966,17 +962,17 @@ body{
     /*--- Блок описание услуги ---*/
     .service-block{
         position: relative;
-        float: right;
-        width: 620px;
+        /* float: right; */
+        /* width: 620px; */
         height: 280px;
-        margin-left: 80px;
+        /* margin-left: 80px; */
     }
     /*--- Описание услуги ---*/
     .service-description{
         position: absolute;
         top: 0;
-        left: 0px;
-        width: 100%;
+        right: 0;
+        width: 620px;
         height: 100%;
         display: none;
     }
