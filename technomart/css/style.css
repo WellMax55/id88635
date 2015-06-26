@@ -1045,8 +1045,38 @@ body{
 
     /*--- Блок контактов ---*/
     .contacts-block{
+        position: relative;
         padding-top: 14px;
-        padding-bottom: 86px;
+        padding-bottom: 86px;      
+    }
+
+    /*--- Интерактивная карта ---*/
+    .modal-content-map{
+        display: none;
+    }
+
+    /*--- Класс для интерактивной карты (для JS) ---*/
+    .modal-content-map-show{
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        overflow:hidden;
+
+        width: 940px;
+        height: 445px;
+        box-shadow: 0 0 27px 0 #231f20;
+        background: url("../img/picture-map-hover.jpg");
+    }
+    
+    /*--- Значок закрыть ---*/
+    .modal-content-map-close{
+        position: absolute;
+        width: 21px;
+        height: 21px;
+        top: 9px;
+        right: 9px;
+        background: url("../img/icon-red-x.png");
     }
 
     /*--- Блок "КОМПАНИЯ ТЕХНОМАРТ"  ---*/
@@ -1097,7 +1127,8 @@ body{
         width: 300px;
     }
     
-    .contacts img{
+    /*--- Карта-mini ---*/
+    .open-map img{
         margin-top: 10px;
         margin-bottom: 40px;
     }
