@@ -1034,6 +1034,14 @@ body{
         width: 380px;
     }
 
+    .credit-service p{
+        width: 290px;
+    }
+    .credit-service a{
+        width: 195px;
+        text-align: center;
+    }
+
 
     /*--- Блок контактов ---*/
     .contacts-block{
