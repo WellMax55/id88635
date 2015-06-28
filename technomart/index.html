@@ -5,7 +5,7 @@
         <title>Техномарт</title>
         <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700|Cuprum:400,700&subset=cyrillic-ext" rel="stylesheet" type="text/css">
         <link href="css/normalize.css" rel="stylesheet" >
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/style.min.css" rel="stylesheet">
     </head>
     <body>
 
@@ -54,7 +54,7 @@
                                 <a href="#">Компания</a>
                             </li>
                             <li>
-                                <a href="#">Каталог</a>
+                                <a href="catalog.html">Каталог</a>
                             </li>
                             <li>
                                 <a href="#">Новости</a>
@@ -104,7 +104,7 @@
             <div class="promo-catalog-bottom clearfix">
 
                 <!-- Слайдер -->
-                <slider class="slider">
+                <div class="slider">
                     <input type="radio" id="btn-1" name="toggle">
                     <input type="radio" id="btn-2" name="toggle" checked>
 
@@ -137,7 +137,7 @@
                         <li class="slider-pagination-item first"></li>
                         <li class="slider-pagination-item second"></li>
                     </ul>
-                </slider>
+                </div>
 
                 <!-- Блок (справа) для item -->
                 <div class="items-block">
@@ -172,7 +172,7 @@
                         <a href="#" class="bookmark">В закладки</a>
                     </div>
                     <div class="catalog-image">
-                        <img src="img/picture-catalog-item.jpg" width="218" height="168">
+                        <img src="img/picture-catalog-item.jpg" width="218" height="168" alt="Перфоратор Bosch">
                     </div>
                     <div class="descriprion-item">
                         <h3 class="catalog-item-title">Перфоратор <span>bosh bfg 9000</span></h3>
@@ -187,7 +187,7 @@
                         <a href="#" class="bookmark">В закладки</a>
                     </div>
                     <div class="catalog-image">
-                        <img src="img/picture-catalog-item.jpg" width="218" height="168">
+                        <img src="img/picture-catalog-item.jpg" width="218" height="168" alt="Перфоратор Bosch">
                     </div>
                     <div class="descriprion-item">
                         <h3 class="catalog-item-title">Перфоратор <span>bosh bfg 3000</span></h3>
@@ -202,7 +202,7 @@
                         <a href="#" class="bookmark">В закладки</a>
                     </div>
                     <div class="catalog-image">
-                        <img src="img/picture-catalog-item.jpg" width="218" height="168">
+                        <img src="img/picture-catalog-item.jpg" width="218" height="168" alt="Перфоратор Bosch">
                     </div>
                     <div class="descriprion-item">
                         <h3 class="catalog-item-title">Перфоратор <span>bosh bfg 6000</span></h3>
@@ -218,7 +218,7 @@
                         <a href="#" class="bookmark">В закладки</a>
                     </div>
                     <div class="catalog-image">
-                        <img src="img/picture-catalog-item.jpg" width="218" height="168">
+                        <img src="img/picture-catalog-item.jpg" width="218" height="168" alt="Перфоратор Bosch">
                     </div>
                     <div class="descriprion-item">
                         <h3 class="catalog-item-title">Перфоратор <span>bosh bfg 2000</span></h3>
@@ -237,7 +237,7 @@
             <!-- Каталог фирм -->
             <div class="catalog-firms">
                 <a href="#" class="catalog-firms-item">
-                    <img src="img/logo-firm-1.jpg" width="126" height="37" alt="bosh">
+                    <img src="img/logo-firm-1.jpg" width="126" height="37" alt="bosch">
                 </a>
                 <a href="#" class="catalog-firms-item">
                     <img src="img/logo-firm-2.jpg" width="123" height="40" alt="makita">
@@ -269,8 +269,14 @@
                 <h2 class="block-title">Сервисы</h2>
                 <p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 
-                <!-- Контейнер меню услуг -->
-                <div class="service-types clearfix">
+                <!-- Блок меню услуг -->                    
+                <div class="service-block clearfix">
+
+                    <!-- Невидимые радибаттоны -->
+                    <input type="radio" id="delivery" name="service" checked>
+                    <input type="radio" id="guarantee" name="service">
+                    <input type="radio" id="credit" name="service">
+
                     <!-- Меню услуг -->
                     <ul class="service-types-menu">
                         <li class="active">
@@ -285,27 +291,23 @@
                     </ul>
 
                     <!-- Описание услуги -->
-                    <div class="service-block">
-                        <input type="radio" id="delivery" name="service" checked>
-                        <input type="radio" id="guarantee" name="service">
-                        <input type="radio" id="credit" name="service">
-                        <div class="service-description delivery-service">
-                            <h3 class="service-description-title">Доставка</h3>
-                            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!</p>
-                        </div>
-                        <div class="service-description guarantee-service">
-                            <h3 class="service-description-title">Гарантия</h3>
-                            <p>Если купленный у нас товар поломается или заискрит,<br> 
-                            а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br> 
-                            Дом уж восстановите как-нибудь сами.</p>
-                        </div>
-                        <div class="service-description credit-service">
-                            <h3 class="service-description-title">Кредит</h3>
-                            <p>Залезть в долговую яму стало проще! <br> Кредитные консультанты придут вам на помощь.</p>
-                            <a href="#" class="button button-red">Открыть каталог</a>
-                        </div>
+                    <div class="service-description delivery-service">
+                        <h3 class="service-description-title">Доставка</h3>
+                        <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!</p>
+                    </div>
+                    <div class="service-description guarantee-service">
+                        <h3 class="service-description-title">Гарантия</h3>
+                        <p>Если купленный у нас товар поломается или заискрит,<br> 
+                        а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br> 
+                        Дом уж восстановите как-нибудь сами.</p>
+                    </div>
+                    <div class="service-description credit-service">
+                        <h3 class="service-description-title">Кредит</h3>
+                        <p>Залезть в долговую яму стало проще! <br> Кредитные консультанты придут вам на помощь.</p>
+                        <a href="#" class="button button-red">Открыть каталог</a>
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -329,16 +331,12 @@
                 <!-- Контакты -->
                 <div class="contacts">
                     <h2 class="block-title">Контакты</h2>
-                    <p>Вы можете забрать свой товар сами, <br>
+                    <p>Вы можете забрать товар сами, <br>
                        заехав в наш офис:</p>
                     <a href="#" class="open-map">                     
                         <img src="img/picture-map.jpg" width="300" height="155" alt="Схема проезда">
                     </a>
-                    <div class="modal-content-map"> 
-                        <div class="modal-content-map-close"></div> 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1998.589387925593!2d30.3213667!3d59.9389554!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sua!4v1435310490433" width="940" height="445" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                    <a href="#" class="button button-red">Заблудились? Напишите нам!</a>
+                    <a href="#" class="button button-red write-us">Заблудились? Напишите нам!</a>
                 </div>
             </div>
         </div>
@@ -369,7 +367,7 @@
                                 <a href="#">Новости</a>
                             </li>
                             <li>
-                                <a href="#">Каталог</a>
+                                <a href="catalog.html">Каталог</a>
                             </li>
                             <li>
                                 <a href="#">Доставка</a>
@@ -427,7 +425,40 @@
                 </div>
             </div>
         </footer>
-    <script src="js/jquery.js"></script> 
-    <script src="js/script.js"></script>    
+
+        <!-- Интерактивная карта -->
+        <div class="modal-content-map"> 
+            <div class="modal-content-map-close"></div> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1998.589387925593!2d30.3213667!3d59.9389554!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sua!4v1435310490433" width="940" height="445" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        
+        <!-- Модальное окно -->
+        <div class="modal-content"> 
+            <div class="modal-content-close"></div> 
+            <form action="#" method="post">
+                <div class="modal-block-top clearfix">
+                    <!-- Блок "Ваше имя" -->
+                    <div class="modal-name">
+                        <label for="block1">Ваше имя:</label>
+                        <input type="text" id="block1" name="name" placeholder="Представьтесь пожалуйста">
+                    </div>
+                    <!-- Блок "Ваше e-mail" -->
+                    <div class="modal-e-mail">
+                        <label for="block2">Ваш e-mail:</label>
+                        <input type="text" id="block2" name="e-mail" placeholder="Для отправки ответа">
+                    </div>
+                    <!-- Блок "Текст письма" -->
+                    <div class="modal-letter">
+                        <label for="block3">Текст письма:</label>
+                        <textarea type="text" id="block3" name="letter" placeholder="В свободной форме"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="button button-red">Отправить</button>
+                <button type="reset" name="reset" class="button cancel">Отмена</button>
+            </form>
+        </div>
+
+    <script src="js/write_us.min.js"></script> 
+    <script src="js/map.min.js"></script>    
     </body>
 </html>
